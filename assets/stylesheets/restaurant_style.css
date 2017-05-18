@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: steelblue;
+  color: white;
+  font-family: helvetica;
+  font-size: 16px;
+}
+
+h1, h2, p, form {
+  text-align: center;
+}
+
+h3 {
+  padding-top: 50px;
+}
+
+.restaurants {
+  width: 100%;
+  clear: both;
+  padding: 5%;
+  margin: 2%;
+}
+
+.card {
+  width: 20%;
+  height: 300px;
+  margin: 2.5%;
+  padding-top: 15%;
+  float: left;
+  background-color: white;
+  text-align: center;
+  color: black;
+  background-size: contain;
+  background-repeat:no-repeat;
+  list-style-type: none;
+}
+
+#hero {
+  width: 100%;
+  height: 450px;
+  background-image: url("../images/Carmel-Art-and-Design-District-Sign-540.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h3 i {
+  text-decoration: underline;
+}
+
+#baz {
+  background-image: url("../images/bazLogo.png");
+  background-size: 80%;
+  background-position:top;
+}
+
+#mitchell {
+  background-image: url("../images/mitchells.jpeg");
+  background-size: 70%;
+  background-position: top;
+}
+
+#prime {
+  background-image: url("../images/prime.png");
+  background-size: 70%;
+  background-position: top;
+}
+
+#matt {
+  background-image: url("../images/matt.png")
+}
+
+#kona {
+  background-image: url("../images/kona.jpg");
+}
+
+#mimi {
+  background-image: url("../images/mimi.png");
+  background-position: top;
+}
+
+#wildeggs {
+  background-image: url("../images/eggs.jpeg");
+}
+
+#kitchen {
+  background-image: url("../images/kitchen.png");
+}
+
+table {
+  border: 2px black solid;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+/*
+ target the tr, td, and th elements
+  - give a 2px black solid border to the table
+*/
+tr, td, th {
+  border: 2px black solid;
+  background-color: white;
+  color: steelblue;
+}
+
+
+/*
+ target the th element
+  - set the background color to black
+  - set the text color to white
+*/
+th {
+  background-color: black;
+  color: white;
+}

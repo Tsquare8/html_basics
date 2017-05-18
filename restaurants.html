@@ -3,40 +3,47 @@
   <head>
     <meta charset="utf-8">
     <title>My Favorite Restaurants in Carmel IN</title>
+    <link type="text/css" rel="stylesheet" href="assets/stylesheets/restaurant_style.css"/>
+
   </head>
   <body>
+
+    <div id="hero"></div>
+
     <h1>My Favorite Restaurants in Carmel Indiana</h1>
     <p>If you find yourself in the Carmel Indiana area, there are several great restaurants.</p>
-    <h3>Here are <i>5 Restaurants</i> that I Recommand:</h3>
+    <h3>Here are <i>8 Restaurants</i> that I Recommand:</h3>
 
-    <ul>
-      <li>
-        <img src='http://www.bazbeaux.com/img/bazLogo.png' width="50">
-        <a href="http://www.bazbeaux.com/" target="_blank">Bazbeaux Pizza</a>
-      </li>
-      <li>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl9oRbEqB1-Pdk0CjjzePRfjuktiHYGlbB36Sl6N98BWOVd6-L" width="50">
-        <a href="http://www.mitchellsfishmarket.com/" target="-blank">Mitchell's Fish Market</a>
-      </li>
-      <li>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv6zHqbVSy9ktT8I5ZqtNxDc2S4LVAGkado8Iv54WNvyZcWaEWZA" width="50">
-        <a href="http://prime47carmel.com/" target="_blank">Prime 47</a>
-      </li>
-      <li>
-        <img src="https://cdn.doordash.com/media/restaurant/cover/MatttheMillersTavern_Carmel_NEW.png" width="50">
-        <a href="https://mtmtavern.com/" target="_blank">Matt The Miller's Tavern</a>
-      </li>
-      <li>
-        <img src="https://s3-media3.fl.yelpcdn.com/buphoto/buy1sf3CK7IResdRC3gYGg/o.jpg" width="50">
-        <a href="http://www.konagrill.com/">Kona Grill</a>
-      </li>
-      <li>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWJDCy0hepfyV1IHL7iQ9YN5sWmZNjmddLn34WG9Ycw4r6U36-fQ" width="50">
-        <a href="my_kitchen.html">My Kitchen</a>
-      </li>
-    </ul>
+    <div id="cards" class="restaurants">
+      <ul>
+        <li class="card" id="baz">
+          <a href="http://www.bazbeaux.com/" target="_blank">Bazbeaux Pizza</a>
+        </li>
+        <li class="card" id="mitchell">
+          <a href="http://www.mitchellsfishmarket.com/" target="-blank">Mitchell's Fish Market</a>
+        </li>
+        <li class="card" id="prime">
+          <a href="http://prime47carmel.com/" target="_blank">Prime 47</a>
+        </li>
+        <li class="card" id="matt">
+          <a href="https://mtmtavern.com/" target="_blank">Matt The Miller's Tavern</a>
+        </li>
+        <li class="card" id="kona">
+          <a href="http://www.konagrill.com/">Kona Grill</a>
+        </li>
+        <li class="card" id="mimi">
+          <a href="http://www.mimibluemeatballs.com/">Mimi Blue Meatballs</a>
+        </li>
+        <li class="card" id="wildeggs">
+          <a href="http://wildeggs.com/">Wild Eggs</a>
+        </li>
+        <li class="card" id="kitchen">
+          <a href="my_kitchen.html">My Kitchen</a>
+        </li>
+      </ul>
+    </div>
 
-    <table>
+    <table id="rest-table">
       <tr>
         <th>Restaurant</th>
         <th>Cuisine</th>
@@ -57,7 +64,7 @@
         <td>Seafood</td>
         <td><b>$$$</b></td>
         <td>
-          <a href="ttps://www.allmenus.com/in/carmel/9722-mitchells-fish-market/menu/">Mitchell's Fish Market Menu</a>
+          <a href="https://www.allmenus.com/in/carmel/9722-mitchells-fish-market/menu/">Mitchell's Fish Market Menu</a>
         </td>
 
       </tr>
@@ -86,18 +93,36 @@
         </td>
       </tr>
       <tr>
+        <td><b>Mimi Blue Meatballs</b></td>
+        <td> American, Comfort Food</td>
+        <td><b>$$</b></td>
+        <td>
+        <a href="https://www.yelp.com/menu/mimi-blue-meatballs-indianapolis/lunch-and-dinner-menu">Mimi Blue Menu</a>
+        </td>
+      </tr>
+      <tr>
+        <td><b>Wild Eggs</b></td>
+        <td>Breakfast, Brunch</td>
+        <td><b>$</b></td>
+        <td>
+        <a href="https://www.yelp.com/menu/mimi-blue-meatballs-indianapolis/lunch-and-dinner-menu">Wild Eggs Menu</a>
+        </td>
+      </tr>
+      <tr>
         <td><b>My Kitchen</b></td>
         <td>Breakfast, Brunch</td>
         <td><b>$</b></td>
-        <td>TBD</td>
+        <td><i>Coming Soon</i></td>
       </tr>
     </table>
 
-    <h2>Please Contact Us</h2>
-    <p>We are very interested in hearing from you.  Please give us your feedback</p>
-    <form>Enter Your Name<input type="text" name="name"></form>
-    <form>Enter Yor Email<input type="text" name="email"></form>
-    <form>Comments:<input type="text " name="comments"></form>
+    <div id="contact">
+      <h2>Please Contact Us</h2>
+      <p>We are very interested in hearing from you.  Please give us your feedback</p>
+      <form>Enter Your Name<input type="text" name="name"></form>
+      <form>Enter Yor Email<input type="text" name="email"></form>
+      <form>Comments:<input type="text " name="comments"></form>
+    </div>
 
   </body>
 </html>
